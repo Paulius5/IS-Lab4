@@ -47,6 +47,7 @@ O_centras(:,3) = 1:Skaicius;
 O_centras = sortrows(O_centras,2);
 % rûðiojama atsiþvelgiant á pavyzdþiø eiluèiø ir raidþiø skaièiø
 raidziu_sk = Skaicius/pvz_eiluciu_sk;
+Skaicius
 for k = 1:pvz_eiluciu_sk
     O_centras((k-1)*raidziu_sk+1:k*raidziu_sk,:) = ...
         sortrows(O_centras((k-1)*raidziu_sk+1:k*raidziu_sk,:),3);
